@@ -26,7 +26,6 @@ const changeTodo = (id) => {
     emits('changeTodo', id);
 };
 
-// Define emits explicitly
 const emits = defineEmits(['removeTodo', 'changeTodo']);
 </script>
 

@@ -22,7 +22,6 @@ const handleChange = () => {
     emits('changeTodo', props.id);
 };
 
-// Define emits explicitly
 const emits = defineEmits(['removeTodo', 'changeTodo']);
 </script>
 

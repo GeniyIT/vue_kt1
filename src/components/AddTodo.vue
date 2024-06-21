@@ -23,7 +23,6 @@ const emits = defineEmits(['addNewTodo']);
 
 
 <style scoped>
-/* Стили из App.css могут быть скопированы сюда */
 .input_elem {
     display: flex;
     justify-content: center;
