@@ -16,7 +16,6 @@ const addTodo = () => {
     }
 };
 
-// Define emits explicitly
 const emits = defineEmits(['addNewTodo']);
 </script>
 
